@@ -1,0 +1,68 @@
+html, body, form, h2, label, input, ul, li, button{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+form{
+    border: solid 1px rgb(235, 230, 230);
+    background-color: rgb(247, 244, 244);
+    border-radius: 5px;
+    width: 350px;
+    padding: 55px 35px;
+
+}
+
+form h2{
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+form div ul li{
+    padding-bottom: 10px;
+    display: grid;
+}
+
+form div ul li .bloco{
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+form div ul li input{
+    background-color: #E9ECEF;
+}
+
+form div ul li input:hover{
+    background-color: #DEE2E6;
+}
+
+form div ul li input:focus{
+    border-color: #000000;
+    background-color: #FFFFFF;
+}
+
+form div ul li button{
+    color: white;
+    background-color: #1971C2;
+}
+form div ul li button:hover{
+    background-color: #1864AB;
+}
+
+form div ul li button:focus{
+    border-color: #000000;
+}
